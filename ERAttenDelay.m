@@ -1,5 +1,7 @@
 function output = ERAttenDelay(input, maxERDelay)
 
+% TODO: implement Inverse Square Law instead of scaling.
+
 %boundaries
 lowerInput = 0;
 upperInput = maxERDelay;
